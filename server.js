@@ -4,12 +4,12 @@ import connectDB from './config/db.js'
 import dotenv from 'dotenv'
 import morgan from 'morgan'
 // import userRoutes from './userRoutes/userRoutes.js'
-import userRoutes from './userRoutes/userRoutes.js'
+import userRoutes from './routes/userRoutes.js'
 import cors from 'cors'
 import cookieParser from 'cookie-parser'
-import categoriesRoutes from './userRoutes/categoriesRoutes.js'
-import productRoutes from './userRoutes/productsRoutes.js'
-import addressRoutes from './userRoutes/addressRoutes.js'
+import categoriesRoutes from './routes/categoriesRoutes.js'
+import productRoutes from './routes/productsRoutes.js'
+import addressRoutes from './routes/addressRoutes.js'
 dotenv.config()
 let app = express()
 app.use(cors({origin:"http://localhost:5173",credentials:true}))

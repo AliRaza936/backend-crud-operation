@@ -1,5 +1,5 @@
 import express from 'express'
-import { allUsers, createUser, loginPage, logoutPage, } from '../userController/userController.js'
+import { allUsers, createUser, loginPage, logoutPage, } from '../controller/userController.js'
 import { isAdmin, isAuthorized } from '../authMiddlewares/authMiddleWares.js'
 
 

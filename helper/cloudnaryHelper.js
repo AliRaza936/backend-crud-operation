@@ -4,9 +4,9 @@ import fs from 'fs'
 
    // Configuration
    cloudinary.config({ 
-    cloud_name: 'dowtim7oo', 
-    api_key: '736422854727569', 
-    api_secret: 'tHWB1ptjNNk_2yhJT6yTSbs35S4' // Click 'View API Keys' above to copy your API secret
+    cloud_name: '', // cloud name from cloudinary
+    api_key: '', // api key from cloudinary
+    api_secret: '' // Click 'View API Keys' above to copy your API secret from cloudinary
 });
 
 let uploadImageOnCloudnary  = async (filePath,floderName)=>{

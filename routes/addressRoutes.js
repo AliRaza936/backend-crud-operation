@@ -1,7 +1,7 @@
 import express from 'express'
 // import { allUsers, createUser, loginPage, logoutPage, } from '../userController/userController.js'
 import { isAdmin, isAuthorized } from '../authMiddlewares/authMiddleWares.js'
-import { addAddress, deleteAddress, getAddress, getSingleAddress, updateAddress } from '../userController/addressController.js'
+import { addAddress, deleteAddress, getAddress, getSingleAddress, updateAddress } from '../controller/addressController.js'
 
 let addressRoutes = express.Router()
 

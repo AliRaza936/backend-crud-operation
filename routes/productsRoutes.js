@@ -1,7 +1,7 @@
 import express from 'express'
 
 import { isAdmin, isAuthorized } from '../authMiddlewares/authMiddleWares.js'
-import { createProduct, deleteProducts, getAllProducts, getSingleProduct, updateSingleProduct } from '../userController/productsController.js'
+import { createProduct, deleteProducts, getAllProducts, getSingleProduct, updateSingleProduct } from '../controller/productsController.js'
 import { upload } from '../authMiddlewares/multerMiddleware.js'
 
 

@@ -1,7 +1,7 @@
 import express from 'express'
 // import { allUsers, createUser, loginPage, logoutPage, } from '../userController/userController.js'
 import { isAdmin, isAuthorized } from '../authMiddlewares/authMiddleWares.js'
-import { createCategory, deleteCategory, getAllCategory, getSingleCategory, updateCategory } from '../userController/categoriesController.js'
+import { createCategory, deleteCategory, getAllCategory, getSingleCategory, updateCategory } from '../controller/categoriesController.js'
 
 
 let categoriesRoutes = express.Router()
