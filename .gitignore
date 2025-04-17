@@ -1,0 +1,22 @@
+# Ignore environment files (containing API keys, DB credentials)
+.env
+.env.local
+.env.*    # Ignore any .env files with different names
+
+# Ignore database files (if applicable)
+*.db
+*.sqlite
+
+# Ignore logs
+*.log
+
+# Ignore secret keys and credentials files
+secrets.json
+config/secrets.json
+
+# Ignore node_modules
+node_modules/
+
+# Ignore any other files you don't want tracked
+.DS_Store
+Thumbs.db
